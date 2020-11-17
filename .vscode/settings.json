@@ -5,5 +5,9 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "libs/commons-lang3-3.11-bin/commons-lang3-3.11/commons-lang3-3.11.jar"
+    ]
 }

@@ -12,7 +12,9 @@ public class App{
         Graph graph = new Graph(edges);
 
 // print the graph as an adjacency list
-        Graph.printGraph(graph);
+        for(Graph.Node node : Delivery.findRoute(graph)) {
+                System.out.println(Integer.toString(node.value));
+        }
 }
 
     

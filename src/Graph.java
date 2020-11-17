@@ -38,13 +38,12 @@ public class Graph {
         System.out.println("Contents of the graph:");
         while (src_vertex < list_size) {
             //traverse through list, printing edges
-            for(Node edge: graph.adj_list.get(src_vertex)) {
-                System.out.print("Vertex:" + src_vertex + "==>" + edge.value + "(" + edge.weight + ")\t");
-
+            for(Node node: graph.adj_list.get(src_vertex)) {
+                System.out.print("Vertex:" + src_vertex + "==>" + node.value + "(" + node.weight + ")\t");
+                
             }
             System.out.println();
             src_vertex++;       
-
     }
 
 }
